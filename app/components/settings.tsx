@@ -168,7 +168,6 @@ export function Settings(props: { closeSettings: () => void }) {
                 }
               }}
               bordered
-              title={Locale.Settings.Actions.ClearAll}
             />
           </div>
           <div className={styles["window-action-button"]}>

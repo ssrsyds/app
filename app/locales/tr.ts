@@ -57,8 +57,6 @@ const tr: LocaleType = {
     Title: "Ayarlar",
     SubTitle: "Tüm Ayarlar",
     Actions: {
-      ClearAll: "Tüm Verileri Temizle",
-      ResetAll: "Tüm Ayarları Sıfırla",
       Close: "Kapat",
       ConfirmResetAll: {
         Confirm: "Tüm ayarları sıfırlamak istediğinizden emin misiniz?",

@@ -57,8 +57,6 @@ const es: LocaleType = {
     Title: "Configuración",
     SubTitle: "Todas las configuraciones",
     Actions: {
-      ClearAll: "Borrar todos los datos",
-      ResetAll: "Restablecer todas las configuraciones",
       Close: "Cerrar",
       ConfirmResetAll: {
         Confirm: "Are you sure you want to reset all configurations?",

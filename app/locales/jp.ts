@@ -56,6 +56,8 @@ const jp = {
     Title: "設定",
     SubTitle: "設定オプション",
     Actions: {
+      ClearAll: "すべてのデータをクリア",
+      ResetAll: "すべてのオプションをリセット",
       Close: "閉じる",
       ConfirmResetAll: {
         Confirm: "すべての設定をリセットしてもよろしいですか？",

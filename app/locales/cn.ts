@@ -54,6 +54,8 @@ const cn = {
     Title: "设置",
     SubTitle: "设置选项",
     Actions: {
+      ClearAll: "清除所有数据",
+      ResetAll: "重置所有选项",
       Close: "关闭",
       ConfirmResetAll: {
         Confirm: "Are you sure you want to reset all configurations?",

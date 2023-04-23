@@ -55,6 +55,8 @@ const tw: LocaleType = {
     Title: "設定",
     SubTitle: "設定選項",
     Actions: {
+      ClearAll: "清除所有數據",
+      ResetAll: "重置所有設定",
       Close: "關閉",
       ConfirmResetAll: {
         Confirm: "Are you sure you want to reset all configurations?",

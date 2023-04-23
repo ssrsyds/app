@@ -57,6 +57,8 @@ const it: LocaleType = {
     Title: "Impostazioni",
     SubTitle: "Tutte le impostazioni",
     Actions: {
+      ClearAll: "Cancella tutti i dati",
+      ResetAll: "Resetta tutte le impostazioni",
       Close: "Chiudi",
       ConfirmResetAll: {
         Confirm: "Sei sicuro vuoi cancellare tutte le impostazioni?",

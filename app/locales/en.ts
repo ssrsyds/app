@@ -57,8 +57,6 @@ const en: LocaleType = {
     Title: "Settings",
     SubTitle: "All Settings",
     Actions: {
-      ClearAll: "Clear All Data",
-      ResetAll: "Reset All Settings",
       Close: "Close",
       ConfirmResetAll: {
         Confirm: "Are you sure you want to reset all configurations?",

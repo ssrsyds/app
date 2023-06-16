@@ -74,27 +74,27 @@ const ENABLE_GPT4 = true;
 export const ALL_MODELS = [
   {
     name: "gpt-4",
-    available: ENABLE_GPT4,
+    available: true,
   },
   {
-    name: "待更新",
-    available: false,
+    name: "gpt-3.5-turbo",
+    available: true,
   },
   {
-    name: "待更新",
-    available: false,
+    name: "claude-instant",
+    available: true,
   },
   {
-    name: "待更新",
-    available: false,
+    name: "claude-instant-100k",
+    available: true,
   },
   {
-    name: "待更新",
-    available: false,
+    name: "claude+",
+    available: true,
   },
   {
-    name: "待更新",
-    available: false,
+    name: "bard",
+    available: true,
   },
 ];
 
@@ -122,7 +122,7 @@ export const ModalConfigValidator = {
     return limitModel(x);
   },
   max_tokens(x: number) {
-    return limitNumber(x, 0, 32000, 2000);
+    return limitNumber(x, 0, 100000, 2000);
   },
   presence_penalty(x: number) {
     return limitNumber(x, -2, 2, 0);
@@ -149,7 +149,7 @@ const DEFAULT_CONFIG: ChatConfig = {
   modelConfig: {
     model: "gpt-4",
     temperature: 1,
-    max_tokens: 3999,
+    max_tokens: 3050,
     presence_penalty: 0,
   },
 };

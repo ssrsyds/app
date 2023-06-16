@@ -1,9 +1,9 @@
 import { SubmitKey } from "../store/app";
 
 const cn = {
-  WIP: "该功能仍在开发中……",
+  WIP: "暂无更新……",
   Error: {
-    Unauthorized: "本程序为[ChatGPT Plus](https://ai.yjie.fun/)附属版本，请先验证您的ChatGPT授权码",
+    Unauthorized: "本程序基于GPT-4模型，为[ChatGPT Plus](https://ai.yjie.fun/)附属版本，内部用户专享，请验证您的ChatGPT授权码后使用",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,

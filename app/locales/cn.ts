@@ -21,11 +21,11 @@ const cn = {
     Rename: "重命名对话",
     Typing: "正在输入…",
     Input: (submitKey: string) => {
-      var inputHints = `${submitKey} 发送`;
+      var inputHints = ``;
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
-      return inputHints + "，/ 触发补全";
+      return inputHints + "输入/触发快捷指令";
     },
     Send: "发送",
   },
@@ -87,12 +87,12 @@ const cn = {
     SendPreviewBubble: "发送预览气泡",
     Prompt: {
       Disable: {
-        Title: "禁用提示词自动补全",
-        SubTitle: "输入框输入/可进行功能预设",
+        Title: "禁用快捷指令",
+        SubTitle: "输入框输入/可弹出快捷指令",
       },
-      List: "自定义提示词列表",
+      List: "自定义快捷指令",
       ListCount: (builtin: number, custom: number) =>
-        `内置 ${builtin} 条，用户定义 ${custom} 条`,
+        `内置 ${builtin} 条，自定义 ${custom} 条`,
       Edit: "编辑",
     },
     HistoryCount: {
@@ -104,21 +104,21 @@ const cn = {
       SubTitle: "当未压缩的历史消息超过该值时，将进行压缩",
     },
     AccessCode: {
-      Title: "设备秘钥",
+      Title: "授权码",
       SubTitle: "需验证设备秘钥后继续使用",
       Placeholder: "请输入秘钥",
     },
-    Model: "模型 (model)",
+    Model: "模型切换",
     Temperature: {
-      Title: "随机性 (temperature)",
+      Title: "随机性",
       SubTitle: "值越大，回复越随机，大于 1 的值可能会导致乱码",
     },
     MaxTokens: {
-      Title: "单次回复限制 (max_tokens)",
-      SubTitle: "单次交互所用的最大 Token 数",
+      Title: "单次回复字数限制",
+      SubTitle: "单次对话最大字数",
     },
     PresencePenlty: {
-      Title: "话题新鲜度 (presence_penalty)",
+      Title: "话题新鲜度",
       SubTitle: "值越大，越有可能扩展到新话题",
     },
   },

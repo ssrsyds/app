@@ -124,7 +124,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "New Chat",
-    BotHello: "本程序基于GPT-4模型,为[ChatGPT Plus](https://ai.yjie.fun/)附属版本\n设置内可切换claude-100k模型或者bard模型(不懂的切勿更换)\n\n您好！有什么可以帮助你的吗？",
+    BotHello: "本程序基于GPT-4模型,为[ChatGPT Plus](https://ai.yjie.fun/)附属版本\n设置内可切换claude-100k模型或者bard模型(不懂的切勿更换)\n\n温馨提示:此附属项目为转发接口,所以响应回复速度会比较慢,请耐心等待...\n\n您好！有什么可以帮助你的吗？",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>

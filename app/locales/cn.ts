@@ -3,7 +3,7 @@ import { SubmitKey } from "../store/app";
 const cn = {
   WIP: "暂无更新……",
   Error: {
-    Unauthorized: "本程序基于GPT-4模型，为[ChatGPT Plus](https://ai.yjie.fun/)附属版本，内部用户专享，请验证您的ChatGPT授权码后使用",
+    Unauthorized: "本程序基于GPT-4模型，为[ChatGPT Plus](https://ai.yjie.fun/)附属版本，打赏用户专享，请前往首页设置验证您的授权码后使用",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -124,7 +124,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "New Chat",
-    BotHello: "本程序基于GPT-4模型,为[ChatGPT Plus](https://ai.yjie.fun/)附属版本\n设置内可切换claude-100k模型或者bard模型(不懂的切勿更换)\n\n温馨提示:此附属项目为转发接口,所以响应回复速度会比较慢,非必要请使用3.5模型,提问后请耐心等待...",
+    BotHello: "您好,有什么可以帮助你的吗",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>

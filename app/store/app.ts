@@ -82,19 +82,19 @@ export const ALL_MODELS = [
   },
   {
     name: "claude-instant",
-    available: true,
+    available: false,
   },
   {
     name: "claude-instant-100k",
-    available: true,
+    available: false,
   },
   {
     name: "claude+",
-    available: true,
+    available: false,
   },
   {
     name: "bard",
-    available: true,
+    available: false,
   },
 ];
 
@@ -149,7 +149,7 @@ const DEFAULT_CONFIG: ChatConfig = {
   modelConfig: {
     model: "gpt-4",
     temperature: 1,
-    max_tokens: 3050,
+    max_tokens: 8000,
     presence_penalty: 0,
   },
 };

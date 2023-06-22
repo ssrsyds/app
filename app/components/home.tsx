@@ -167,9 +167,9 @@ function _Home() {
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
         <div className={styles["sidebar-header"]}>
-          <div className={styles["sidebar-title"]}>ChatGPT Pro</div>
+          <div className={styles["sidebar-title"]}><a href="https://ai.yjie.fun/" style="color: gold; text-decoration: underline;">ChatGPT Plus</a></div>
           <div className={styles["sidebar-sub-title"]}>
-            基于<a href="https://ai.yjie.fun/">ChatGPT Plus</a>的附属版本！
+            您好,我是您的专属GPT4智能助手！
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />

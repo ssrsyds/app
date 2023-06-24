@@ -124,7 +124,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "New Chat",
-    BotHello: "您好,有什么可以帮助你的吗",
+    BotHello: "模型:GPT4\n\n温馨提示:GPT4模型价格昂贵，三个小时内提问次数限制为一百次，这一百次为此项目所有用户共用，达到限制则会冷却三小时，三小时内禁止提问，三小时后次数重新计算\n\n所以，请勿使用此模型提问无用的问题，占用公共次数",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>

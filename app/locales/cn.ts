@@ -3,7 +3,7 @@ import { SubmitKey } from "../store/app";
 const cn = {
   WIP: "暂无更新……",
   Error: {
-    Unauthorized: "本程序基于GPT-4模型，为[ChatGPT Plus](https://ai.yjie.fun/)附属版本，已打赏用户专享，请前往首页设置验证您打赏获取的授权码后使用\n\n未打赏用户如担心此产品非GPT4模型，可联系站长申请免费体验",
+    Unauthorized: "本程序基于GPT-4模型，为[ChatGPT Plus](https://ai.yjie.fun/)附属版本，已打赏用户专享，请前往首页设置验证您打赏获取的授权码后使用",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
